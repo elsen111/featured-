@@ -1,0 +1,251 @@
+/* Resetting some default values */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #E0D48A;
+}
+
+#wrapper
+{
+    width: 59.5%;
+    margin: 1.3%  auto  0  auto;
+}
+
+header
+{
+    position: relative;
+    height: 13.2vw;
+    background-image: url('images/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.105vw  solid  #B9BE80;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header  h1
+{
+    position: absolute;
+    margin: 5.4%  0  0  62.35%;
+    font-size: 2em;
+    color: #323a07;
+    font-weight: normal;
+}
+
+header  p
+{
+    position: absolute;
+    margin: 10.3%  0  0  62.45%;
+    font-size: 1em;
+    color: #293325;
+}
+
+main
+{
+    background-image: url('images/body.jpg');
+    margin-top: 0.4%;
+    margin-bottom: 1%;
+    padding-bottom: 1.15%;
+    border: 0.105vw  solid  #B9BE80;
+}
+
+#top_navigation
+{
+    background-color: #EAE6CB;
+    width: 97.7%;
+    margin: 1.2%  auto  0  auto;
+    padding: 1.75%  0;
+    border: 0.1vw  solid  #B9BE80;
+}
+
+#top_navigation  ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+#top_navigation  ul  li  a
+{
+    padding: 0  2.3em;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.94em;
+    color: #03314b;
+}
+
+#top_navigation  ul  li  a:hover
+{
+    text-decoration: underline;
+}
+
+#content
+{
+    display: flex;
+    padding-bottom: 2%;
+}
+
+#content  aside
+{
+    width: 23.3%;
+    margin: 2.2%  0  0  1.2%;
+}
+
+aside  h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d2d35e;
+    background-image: url('images/arrow.png');
+    background-repeat: no-repeat;
+    background-size: unset;
+    background-position-y: center;
+    background-position-x: 4.95%;
+    font-size: 1.37em;
+    color: #1b0400;
+    font-weight: normal;
+    padding: 4.8%  0  4.8%  15.5%;
+}
+
+aside  #side_nav
+{
+    background-color: #F0E8C3;
+    margin-top: 2.2%;
+}
+
+#side_nav  ul
+{
+    list-style-type: none;
+    list-style-image: url('images/li.png');
+    list-style-position: outside;
+    /* padding: 3%  5.8%; */
+    padding: 3%  13.5%;
+    line-height: 1.45em;
+}
+
+#side_nav  ul  li  a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.82em;
+    color: #364b38;
+    padding-left: 2%;
+}
+
+#side_nav  ul  li  a:hover
+{
+    text-decoration: none;
+}
+
+#block
+{
+    margin-top: 10.7%;
+}
+
+#block  p
+{
+    background-color: #F0E8C3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.82em;
+    color: #2d1604;
+    padding: 7%  5%;
+    padding-bottom: 2.5%;
+    line-height: 1.5em;
+}
+
+#content  #main_content
+{
+    width: 71.8%;
+    margin-top: 2.2%;
+    margin-left: 1.32%;
+    padding-left: 1.8%;
+    padding-bottom: 3.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 1px  solid  #D4D093;
+}
+
+#main_content  h2
+{
+    font-size: 1.55em;
+    color: #2d1604;
+    font-weight: normal;
+}
+
+#main_content  p
+{
+    font-size: 0.82em;
+    color: #2d1604;
+    font-weight: normal;
+    line-height: 1.6em;
+}
+
+#gallery
+{
+    margin-top: 2%;
+}
+
+#gallery  p
+{
+    margin-top: 2%;
+}
+
+#bottom
+{
+    display: flex;
+    margin-top: 5.5%;
+}
+
+#bottom  p
+{
+    margin-top: 4%;
+}
+
+#bottom  #subscription
+{
+    width: 50%;
+    padding-right: 4%;
+    border-right: 1px  solid  #AEAE9D;
+}
+
+#bottom  #other_services
+{
+    width: 50%;
+    padding-left: 3%;
+}
+
+.read_more
+{
+    background-color: #bdd92c;
+    font-size: 0.75em;
+    color: #0a0800;
+    font-weight: 600;
+    border: 0.05vw  solid  #000;
+    margin-top: 6.5%;
+    padding: 3.5%  5.2%;
+}
+
+#copyright
+{
+    width: 97.7%;
+    background-color: #cbde50;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 0.75em;
+    color: #2d1604;
+    margin: 0  auto;
+    padding: 2.1%  0;
+}
+
+#copyright  p
+{
+    margin: 0  32%;
+}
+
+#copyright  p  a
+{
+    font-family: Verdana, Geneva, sans-serif;
+    text-decoration: none;
+    font-size: 1em;
+    color: #236407;
+}

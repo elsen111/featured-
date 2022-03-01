@@ -1,0 +1,112 @@
+@media only screen and (max-width: 1420px)
+{
+    #wrapper
+    {
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width: 1026px)
+{
+    #wrapper
+    {
+        width: 92%;
+        margin-top: 1.95vw;
+    }
+
+    header
+    {
+        height: 20.8vw;
+    }
+
+    header  h1
+    {
+        font-size: 3.25vw;
+    }
+
+    header  p
+    {
+        font-size: 1.65vw;
+    }
+
+    main
+    {
+        margin-top: 0.5vw;
+    }
+
+    #top_navigation
+    {
+        margin-top: 0.9vw;
+        padding: 1vw  0;
+    }
+
+    #top_navigation  ul
+    {
+        margin: auto  0  auto  1.5vw;
+    }
+
+    #top_navigation  ul  li  a
+    {
+        font-size: 1.5vw;
+    }
+
+    aside  h2
+    {
+        font-size: 2.2vw;
+        background-size: 1.1vw;
+    }
+
+    #side_nav  ul
+    {
+        list-style: none;
+        line-height: 2.1vw;
+    }
+
+    #side_nav  ul  li  a
+    {
+        background-image: url('images/li.png');
+        background-repeat: no-repeat;
+        background-size: 1.14vw;
+        background-position-y: center;
+        padding-left: 2vw;
+        font-size: 1.3vw;
+        margin-left: -1.7vw;
+    }
+
+    #block  p
+    {
+        font-size: 1.3vw;
+        padding-right: 1.5vw;
+        line-height: 2.2vw;
+    }
+
+    #main_content  h2
+    {
+        font-size: 2.55vw;
+    }
+
+    #main_content  p
+    {
+        font-size: 1.55vw;
+        line-height: 2.2vw;
+    }
+
+    .read_more
+    {
+        font-size: 1.25vw;
+        border-color: #a8a4a3;
+    }
+
+    #copyright
+    {
+        font-size: 1.2vw;
+    }
+}
+
+@media only screen and (max-width: 420px)
+{
+    #top_navigation  ul
+    {
+        margin-top: -2.1vw;
+    }
+}
